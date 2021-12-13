@@ -16,7 +16,7 @@ async function loginUser() {
   });
 
   localStorage.setItem("access", result.data.access)
-  window.location.replace("https://tij6.herokuapp.com/home");
+  window.location.replace("https://pg-db1.herokuapp.com/home");
 
 
 
